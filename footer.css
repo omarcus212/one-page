@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Rubik&display=swap');
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+}
+
+footer h1{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 30%;
+    font-family: 'Baloo 2', cursive;
+    flex-wrap: nowrap;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
+footer h2{
+    
+    width: 60%;
+    height: 10%;
+    color: white;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   word-wrap: normal;
+   flex-wrap: nowrap;
+    
+
+}
+footer p{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
