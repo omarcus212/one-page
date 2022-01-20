@@ -129,7 +129,7 @@ left: 200px;
 
 .sessaoEventos{
     position:relative;
-    background-color:#ffffffe5;
+    background-color:#fffffffa;
     height: 30%;
     width: 90%;
     left: 50px;
@@ -186,7 +186,7 @@ left: 200px;
     height: 50px;
     width: 80%;
     margin-left: 120px;
-    background-color: #fff;
+    background-color: white;
     font-family: 'Mochiy Pop P One', sans-serif;
     border-radius:5rem ;
     margin-top: 150px;
@@ -244,12 +244,43 @@ left: 200px;
   padding-left: 60px;
 }
 
-.tituloSobre{
-    background-color:rgb(255, 255, 255);
+.sobre h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1100px;
+    height: 50px;
+    border-radius: 1rem;
+    left: 100px;
+    margin-top: 120px;
+    background-color: white;
+    font-size: 2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
-.subTituloSobre{
-    background-color:rgb(87, 207, 236);
+.sobre .acaixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    background-color: #5691C3;
+    position: relative;
+    left: 180px;
+    margin-top: 30px;
 }
-.artigoSobre{
-    background-color:rgb(255, 255, 255);
+.sobre p{
+    width: 900px;
+    height: 500px;
+    background-color: wheat;
+     left: 120px;
+     font-size: 2rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border-radius: 2rem;
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: black;
 }

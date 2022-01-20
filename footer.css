@@ -5,37 +5,38 @@ footer{
     display: flex;
     background-color: rgb(0, 0, 0);
     height: 400px;
+    margin-top: 60px;
+    gap: 5px;
 }
 
 footer h1{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
     color: white;
     width: 30%;
     font-family: 'Baloo 2', cursive;
     flex-wrap: nowrap;
     padding-left: 60px;
-    padding-top: 60px;
     font-size: 3rem;
+    height: 20px;
+    margin: 60px;
 }
 
 footer h2{
-    
-    width: 60%;
+    position: relative;
+    width: 100%;
     height: 10%;
     color: white;
-    padding-left: 60px;
-    padding-top: 10px;
+    margin-left: -70px;
+    margin-top: 100px;
     font-size: 1.5rem;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   word-wrap: normal;
    flex-wrap: nowrap;
-    
 
 }
 footer p{
     display: flex;
     color: white;
-    margin-top: 50px;
+    margin-top: 260px;
     height: 30%;
     justify-content: center;
     align-items: center;
@@ -43,5 +44,6 @@ footer p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-wrap: wrap;
     text-align: center;
+    position: relative;
     
 }
