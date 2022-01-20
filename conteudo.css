@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+
+body{
+   
+    background-color:  #072a5e;
+}
+.slider{
+    width: 80%;
+    height: 600px;  
+    overflow: hidden; 
+    margin-left: 160px;
+    margin-top: 115px;
+    position: relative;
+    
+    
+}
+.ppart{
+    background-color: #5691C3;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%;
+    gap: 30px;
+    margin-top: 10%;
+}
+.slides{
+    display: flex;
+}
+.navigation-bar{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+input{
+    display: none;
+}
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer; 
+    margin-right: 40px;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background: #fff;
+    transition: 0.4s;
+}
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+ 
+}
+.slide{
+    width: 25%;
+    transition: 0.5s;
+}
+
+.slide img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    padding-left: 70px;
+   
+   
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+/*agenda */
+
+.pppart{
+     margin-top: 20%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -60px;
+    right: 50px;
+    text-align: center;
+    background-color:wheat;
+    width: 1200px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-bottom: 5px;
+    box-shadow: 0px -1px 19px 0px black;
+}
+#agendaesportiva{
+    background-color: #5691C3;
+    width: 80%;
+    height: 1000px;
+    margin-top: -30px;
+    margin-left: 10%;
+    box-shadow: 0px 9px 19px 0px black;
+    gap: 30px;
+    color: white;
+}
+
+.pppart h1{
+    left: 60px;
+}
+
+.jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 333px;
+    
+}
+
+.jogos img{
+    position: relative;
+    height: 200px;
+    margin-right: 300px;
+    margin-top: 60px;
+    background-color: rgb(74, 202, 191);
+}
+.jogos .nta{
+display: flex;
+position: relative;
+}
+
+.nta p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 70px;
+    height: 150px;
+    width: 400px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.521);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border-radius:  3rem; ;
+}
+.jogos .titlejogos{
+    margin-top: -300px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+
+}
+
+.volei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 333px;
+    
+}
+
+.volei .titlevolei{
+    margin-top: -300px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.volei img{
+    position: relative;
+    height: 200px;
+    right: 60px;
+    margin-left: 250px;
+    margin-top: 60px;
+   
+}
+.volei .ntb{
+    display: flex;
+    position: relative;
+}
+
+.ntb p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 60px;
+    height: 150px;
+    width: 400px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.521);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border-radius:  3rem; ;
+}
+
+.futsal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 333px;
+   
+    
+}
+
+.futsal img{
+    position: relative;
+    height: 200px;
+    margin-right: 300px;
+    margin-top: 60px;
+    
+}
+.futsal .ntc{
+display: flex;
+position: relative;
+}
+
+.ntc p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 70px;
+    height: 150px;
+    width: 400px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.521);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border-radius:  3rem; 
+    color: white;
+}
+.futsal .titlefutsal{
+    margin-top: -300px;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+
+}

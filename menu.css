@@ -8,7 +8,15 @@
 }
 
 body{
-    background-color:#072A5E;
+    /* background-color:#072A5E; */
+    background-image:url(./img/wp2666508.jpg);
+    background-size: 30%;
+    background-position: top;
+  
+   
+    
+    
+   
 }
 
 header{
@@ -20,17 +28,8 @@ header{
     background-size: cover ; 
    background-position: center;
    border-radius: 1.5em;
+   
 }
-
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-top: 30%;
-}
-
-
 
 
 .todo-menu{
@@ -42,6 +41,8 @@ main{
   gap: 40%;
   justify-content: center;
   align-items: center;
+
+ 
 }
 
 .todo-menu:hover{
@@ -82,7 +83,7 @@ main{
 }
 
 .menu-horizontal a:hover{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     transition: 1s;
 }
@@ -106,3 +107,149 @@ main{
 
 
 
+/*** proximo*/
+
+.ppppart h3 {
+position: relative;
+background-color: yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+top: 20px;
+left: 200px;
+}
+
+.GRANDE{
+    margin-left: 200px;
+    height: 600px;
+    width: 70%;
+    background-color: rgb(243, 53, 53);
+}
+
+.sessaoEventos{
+    position:relative;
+    background-color:#ffffffe5;
+    height: 30%;
+    width: 90%;
+    left: 50px;
+    margin-top: -50px;
+    border-radius:2rem ;
+    display: flex;
+    align-items: center;
+    }
+  .sessaoEventos h4{
+      background-color: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }  
+
+  .ppppart .primeira{
+    display: flex;
+    height: 230px;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    left: 80px;
+  }
+  .ppppart .segundo{
+    display: flex;
+    height: 230px;
+    justify-content: center;
+    top: -110px;
+    position: relative;
+    left: 500px;
+  }
+
+.tituloEventosDoMes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+        
+}
+
+.tituloEventosDoMes > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80%;
+    margin-left: 120px;
+    background-color: #fff;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-radius:5rem ;
+    margin-top: 150px;
+
+}
+.subTituloEventos {
+    
+    height: 80%;
+}
+
+ .subTituloEventos > h3{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #fff;
+    width: 70%;
+    position: relative;
+    left: 15%;
+   
+    
+
+}
+.subTituloEventos > .imagens{
+    background-color: rgb(0, 9, 129);
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    left: 15%;
+    
+}
+.subTituloEventos img{
+    position: relative;
+   margin-top: 60px;
+   left: 20%;
+   gap: 30px;
+}
+.subTituloEventos h4{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.subTituloEventos p{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+  padding-left: 60px;
+}
+
+.tituloSobre{
+    background-color:rgb(255, 255, 255);
+}
+.subTituloSobre{
+    background-color:rgb(87, 207, 236);
+}
+.artigoSobre{
+    background-color:rgb(255, 255, 255);
+}

@@ -6,70 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="conteudo.css">
     <link rel="stylesheet" href="./OnePageSlide/slide.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="todo-menu">
-          <a  class="logosenai" href=""> <img src="./img/image 1.png" alt=""></a>
-            <nav>
-                <div class="menu-horizontal">
-                  <ul>
-                      <li><a href="#menu">Noticias</a></li>
-                      <li><a href="#menu">Agendas</a></li>
-                      <li><a href="#menu">Eventos</a></li>
-                      <li><a href="#contatos">Contatos</a></li>
-                      <li><a href="#menu">Sobre</a></li>
-                  </ul>
-                </div>
-            </nav>
+        <div class="teste">
+            <div class="todo-menu">
+                <a  class="logosenai" href=""> <img src="./img/image 1.png" alt=""></a>
+                  <nav>
+                      <div class="menu-horizontal">
+                        <ul>
+                            <li><a href="#noticias">Noticias</a></li>
+                            <li><a href="#agenda">Agendas</a></li>
+                            <li><a href="#eventos">Eventos</a></li>
+                            <li><a href="#contatos">Contatos</a></li>
+                            <li><a href="#menu">Sobre</a></li>
+                        </ul>
+                      </div>
+                  </nav>
+              </div>
         </div>
+      
         <div class="credito">
       </div>
       </header>
       <main id="menu">
-         <div class="titulo">
-             <p id="noticia">Noticias</p>
-         </div>
+          <section class="ppart" >
+            <div class="titulo">
+                <h1 id="noticias">Saiba o que está Acontecendo !</h1>
+            </div>
+           
             <div class="slider">
-                <div class="slides">
-        
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-        
-                    <div class="slide first">
-                        <img src="./OnePageSlide/Imagens/download1.jpg" alt="">
-                    </div>
-        
-                    <div class="slide">
-                        <img src="./OnePageSlide/Imagens/download2.jpg" alt="">
-                    </div>
-        
-                    <div class="slide">
-                        <img src="./OnePageSlide/Imagens/download3.jpg" alt="">
-                    </div>
-        
-                    <div class="slide">
-                        <img src="./OnePageSlide/Imagens/download4.jpg" alt="">
-                    </div>
-        
-                    <div>
-                        <div class="navigation-bar">
-                            <label class="manual-btn" for="radio1"></label>
-                            <label class="manual-btn" for="radio2"></label>
-                            <label class="manual-btn" for="radio3"></label>
-                            <label class="manual-btn" for="radio4"></label>
-        
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <div class="slide first">
+                            <img src="Imagens/download1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="Imagens/download2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="Imagens/download3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="Imagens/download4.jpg" alt="">
+                        </div>
+                        <div>
+                            <div class="navigation-bar">
+                                <label class="manual-btn" for="radio1"></label>
+                                <label class="manual-btn" for="radio2"></label>
+                                <label class="manual-btn" for="radio3"></label>
+                                <label class="manual-btn" for="radio4"></label>
+                            </div>
                         </div>
                     </div>
-        
-                </div>
             </div>
-        
            
+          
+          </section>
+          <section class="pppart" >
+            <div>
+                <h1 class="h1agendaesportiva" id="agenda" >Agenda Esportiva</h1>
+            </div>
+            
+            <div id="agendaesportiva">
+               <div class="jogos">
+                  <div class="titlejogos">
+                          <h2> jogos</h2>
+                  </div>
+                  <div class="nta">
+                    <a href=""><img src="./img/jogo-de-damas.jpg" alt=""></a>
+                    <p>
+                        de Segunda a sexta 10h as 11h
+                    </p>
+                  </div>
+                 </div>
+
+                  <div class="volei">
+                    <div class="titlevolei">
+                            <h2> volei</h2>
+                    </div>
+                    <div class="ntb">
+                        <p>
+                            de Segunda a sexta 10h as 11h
+                        </p>
+                      <a href=""><img src="./img/download.jpg" alt=""></a>
+                    
+                    </div>
+                   </div>
+                   <div class="futsal">
+                    <div class="titlefutsal">
+                            <h2> Futsal</h2>
+                    </div>
+                    <div class="ntc">
+                      <a href=""><img src="./img/futsal.jpg" alt=""></a>
+                      <p>
+                          de Segunda a sexta 10h as 11h
+                      </p>
+                    </div>
+                   </div>
+
+          </div>
+          </section>
+             <section class="ppppart">  
+                <div class=" title" id="eventos" ><h2>Eventos do Mês</h2></div>
+                <h3>Bombeiros</h3>
+                <div class="GRANDE">
+                   <img class="primeira" src="./img/bombeiro.png" alt="bombeiro">
+                    <img  class="segundo" src="./img/festa.png" alt="festa">
+         
+                    <div class="sessaoEventos" > 
+                     <article>
+                         <h4>Primeiros Socorros e Campanha do Agasalho </h4>
+                          <p> 
+                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                             Culpa aspernatur hic rerum ipsam et quasi at eius libero, 
+                             delectus nobis dolorum est quae illo minima providentm on
+                             consequatur repudiandae dignissimos ut?
+                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                             Laudantium voluptates eos possimus aliquam rem, accusantium 
+                             tenetur perferendis adipisci nam itaque sint consectetur 
+                             quisquam, incidunt dolore repellat aspernatur labore unde.
+                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                             Culpa aspernatur hic rerum ipsam et quasi at eius libero, 
+                             delectus nobis dolorum est quae illo minima providentm on  
+                         </p>
+                     </article>
+                 </div>
+                </div>
+
+            </section> 
+          
       </main>   
 
    
